@@ -5,7 +5,7 @@ from flask_moment import Moment
 from datetime import datetime
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
+from wtforms.validators import DataRequired, Email, email_validator
 
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
